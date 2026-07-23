@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>计算机专业课复习</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+  >
+</head>
+
+<body>
+  <div id="app">正在加载复习资料……</div>
+
+  <script>
+    window.$docsify = {
+      name: '计算机专业课复习',
+      homepage: 'README.md',
+
+      // 请修改成你自己的GitHub仓库
+      repo: 'https://github.com/daoqiwei/CS-Notes',
+
+      relativePath: true,
+      auto2top: true,
+
+      search: {
+        paths: 'auto',
+        placeholder: '搜索知识点',
+        noData: '没有找到相关内容',
+        depth: 6
+      }
+    };
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+</body>
+</html>
